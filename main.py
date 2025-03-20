@@ -84,8 +84,8 @@ st.markdown("""---""")
 
 # Add footer text with clickable LinkedIn link and color effects
 st.markdown(
-    '<p style="text-align:center; font-size:14px; color:gray;">'
-    '<span style="color: red;">Developed by</span> '
+    '<p style="text-align:center; font-size:14px; color:black;">'
+    '<span style="color: black;">Developed by</span> '
     '<span style="color: orange;"><b><a href="https://www.linkedin.com/in/viraj-pathirana-aa01bb2a0/" target="_blank" style="text-decoration:none; color: orange;">Viraj Buwaneka</a></b></span> – All rights reserved © 2025</p>',
     unsafe_allow_html=True
 )
