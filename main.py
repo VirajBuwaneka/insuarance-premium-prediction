@@ -80,13 +80,12 @@ if st.button('Predict'):
     prediction = predict(input_dict)
     st.success(f'Predicted Health Insurance Cost is arround Rupees : {prediction}')
 
-# Add a horizontal line
 st.markdown("""---""")
 
-# Add footer text with color effects
+# Add footer text with clickable LinkedIn link and color effects
 st.markdown(
     '<p style="text-align:center; font-size:14px; color:gray;">'
     '<span style="color: red;">Developed by</span> '
-    '<span style="color: orange;"><b>Viraj Buwaneka</b></span> – All rights reserved © 2025</p>',
+    '<span style="color: orange;"><b><a href="https://www.linkedin.com/in/viraj-pathirana-aa01bb2a0/" target="_blank" style="text-decoration:none; color: orange;">Viraj Buwaneka</a></b></span> – All rights reserved © 2025</p>',
     unsafe_allow_html=True
 )
