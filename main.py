@@ -83,9 +83,14 @@ if st.button('Predict'):
 st.markdown("""---""")
 
 # Add footer text with clickable LinkedIn link and color effects
+# Add a horizontal line
+st.markdown("""---""")
+
+# Add footer text with only "Viraj Buwaneka" in orange and the rest in black
 st.markdown(
     '<p style="text-align:center; font-size:14px; color:black;">'
     '<span style="color: black;">Developed by</span> '
-    '<span style="color: orange;"><b><a href="https://www.linkedin.com/in/viraj-pathirana-aa01bb2a0/" target="_blank" style="text-decoration:none; color: orange;">Viraj Buwaneka</a></b></span> – All rights reserved © 2025</p>',
+    '<span style="color: orange;"><b><a href="https://virajbuwaneka.github.io/vb/" target="_blank" style="text-decoration:none; color: orange;">Viraj Buwaneka</a></b></span> '
+    '<span style="color: black;">– All rights reserved © 2025</span></p>',
     unsafe_allow_html=True
 )
