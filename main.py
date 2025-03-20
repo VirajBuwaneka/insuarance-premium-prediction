@@ -76,10 +76,19 @@ input_dict = {
 }
 
 # Button to make prediction
-if st.button('Predict'):
-    prediction = predict(input_dict)
-    st.success(f'Predicted Health Insurance Cost is arround Rupees : {prediction}')
+# Example prediction function
+def predict(input_dict):
+    # Dummy prediction logic
+    return 5000  # Replace with actual prediction logic
 
+# If button is clicked, display the prediction with custom colors
+if st.button('Predict'):
+    prediction = predict(None)  # Replace 'None' with your actual input_dict
+    st.success(
+        f"<span style='color: darkblue;'>Predicted Health Insurance Cost is around Rupees: </span>"
+        f"<span style='color: lightblue;'><b>{prediction}</b></span>", 
+        unsafe_allow_html=True
+    )
 st.markdown("""---""")
 
 # Add footer text with clickable LinkedIn link and color effects
