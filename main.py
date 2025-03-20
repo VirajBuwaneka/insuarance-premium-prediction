@@ -3,7 +3,9 @@ import streamlit as st
 from prediction_helper import predict
 
 # Define the page layout
-st.title('Health Insurance Cost Predictor')
+st.markdown("""
+    <h1 style='text-align: center; color: red; background-color: orange;'>Health Insurance Cost Predictor</h1>
+""", unsafe_allow_html=True)
 
 categorical_options = {
     'Gender': ['Male', 'Female'],
