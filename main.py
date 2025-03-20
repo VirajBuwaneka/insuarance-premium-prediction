@@ -2,9 +2,11 @@
 import streamlit as st
 from prediction_helper import predict
 
-# Define the page layout
 st.markdown("""
-    <h1 style='text-align: center; color: red; background-color: orange;'>Health Insurance Cost Predictor</h1>
+    <h1 style='text-align: center;'>
+        <span style='color: red;'>Health Insurance</span> 
+        <span style='color: orange;'>Cost Predictor</span>
+    </h1>
 """, unsafe_allow_html=True)
 
 categorical_options = {
