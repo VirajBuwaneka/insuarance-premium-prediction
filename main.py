@@ -91,6 +91,6 @@ st.markdown(
     '<p style="text-align:center; font-size:14px; color:black;">'
     '<span style="color: black;">Developed by</span> '
     '<span style="color: orange;"><b><a href="https://virajbuwaneka.github.io/vb/" target="_blank" style="text-decoration:none; color: orange;">Viraj Buwaneka</a></b></span> '
-    '<span style="color: black;">– All rights reserved © 2025</span></p>',
+    ,
     unsafe_allow_html=True
 )
