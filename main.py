@@ -5,7 +5,7 @@ from prediction_helper import predict
 st.markdown("""
     <h1 style='text-align: center;'>
         <span style='color: red;'>Health Insurance</span> 
-        <span style='color: orange;'>Cost Predictor</span>
+        <span style='color: orange;'>Premium Predictor</span>
     </h1>
 """, unsafe_allow_html=True)
 
